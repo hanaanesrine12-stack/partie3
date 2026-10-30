@@ -1,0 +1,35 @@
+# 1. Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Virtual Environments (if you add them later)
+venv/
+.venv/
+env/
+
+# 3. Environment variables / Secrets (CRITICAL for a password project!)
+.env
+*.env
+
+# 4. Jupyter Notebook checkpoints (if you use them)
+.ipynb_checkpoints
+
+# 5. IDE and Editor files
+.vscode/
+.idea/
+*.swp
+
+# 6. OS generated files
+.DS_Store
+Thumbs.db
+
+# 7. IMPORTANT for your specific project: 
+# Ignore wordlists, output text files, and local databases
+# (Change these if your scripts rely on specific .txt or .csv files to run)
+*.log
+*.sqlite3
+*.db
+# Uncomment the next lines if you don't want to share large text files/wordlists:
+# *.txt
+# *.csv
